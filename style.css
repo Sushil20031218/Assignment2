@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 18px;
+    background-color: #e35252;
+    font-family: 'Inconsolata', monospace;
+    color: #333;
+}
+
+
+header {
+    background-color: #f73b3bcd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 35px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin-left: 50px;
+    padding-left: 40px;
+}
+
+nav ul li a {
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    color: #f9ede5;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #00aeff;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Tangerine', cursive;
+    font-size: 48px;
+    color: white;
+}
+
+
+.lyrics {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Inconsolata', monospace;
+    border-radius: 50px;
+   
+}
+
+.lyrics p {
+    line-height: 1.6;
+}
+
+
+.lyrics p:nth-child(odd) {
+    font-weight: bold;
+}
+
+
+.lyrics p:nth-child(12) {
+    font-style: italic;
+    text-align: center;
+}
+
+
+.lyrics p:nth-child(14),
+.lyrics p:nth-child(16),
+.lyrics p:nth-child(18),
+.lyrics p:nth-child(20),
+.lyrics p:nth-child(22),
+.lyrics p:last-child {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: #00aeff;
+    position:relative;
+    font-size: large;
+    padding: 10px;
+    border-radius: 5px;
+}
